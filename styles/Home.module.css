@@ -1,5 +1,37 @@
 .container {
   padding: 0 2rem;
+  background-color: #e69807fa;
+}
+
+.container1 {
+  padding: 0 2rem;
+  background-color: rgb(208, 233, 141);
+}
+
+.container2 {
+  padding: 0 2rem;
+  background-color: rgb(88, 186, 231);
+}
+
+.container3 {
+  padding: 0 2rem;
+  background-color: rgb(233, 77, 77);
+}
+
+.container4 {
+  padding: 0 2rem;
+  background-color: rgb(240, 226, 101);
+}
+
+.container5 {
+  padding: 0 2rem;
+  background-color: rgb(101, 240, 198);
+}
+
+.container6 {
+  padding: 0 2rem;
+  background-color: rgb(46, 48, 48);
+  color: white;
 }
 
 .main {
@@ -42,7 +74,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .title,
@@ -106,6 +138,15 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.button {
+  padding: 5px;
+  background: brown;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
