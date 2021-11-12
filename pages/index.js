@@ -27,6 +27,9 @@ export default function Home() {
           <li>
             <Link href="/some-random-text-for-404">404 Error (Also provides inbuilt 404 error page)</Link>
           </li>
+          <li>
+            <Link href="/currency">API fetch and Data Showcase</Link>
+          </li>
         </ul>
       </main>
     </div>
