@@ -39,6 +39,7 @@ const CurrencyList = (props) => {
   );
 };
 
+// Pre Rendering
 export async function getStaticProps() {
   const curriencies = await getAllCurrencies();
   return {

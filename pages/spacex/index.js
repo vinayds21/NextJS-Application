@@ -27,6 +27,7 @@ const SpaceXShuttles = (props) => {
   );
 };
 
+// For Server Side Rendering
 export async function getServerSideProps(context) {
   //   const { params } = context;
   const response = await getSpacexShuttles();
