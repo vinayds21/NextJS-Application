@@ -30,6 +30,9 @@ export default function Home() {
           <li>
             <Link href="/currency">API fetch and Data Showcase</Link>
           </li>
+          <li>
+            <Link href="/spacex">SpaceX Space Shuttles (SSR)</Link>
+          </li>
         </ul>
       </main>
     </div>
