@@ -6,11 +6,11 @@ const CategoryPage = () => {
     <div className={styles.container3}>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Product List of Particluar Category!
+          Level-2 - Static Route 
         </h1>
         <ul>
           <li>
-            <Link href="/productlist">Back to product list</Link>
+            <Link href="/productlist">Back to level-1 static route</Link>
           </li>
         </ul>
       </main>

@@ -10,7 +10,7 @@ const BlogPostPage = () => {
   return (
     <div className={styles.container5}>
       <main className={styles.main}>
-        <h1 className={styles.title}>This is a blog page!</h1>
+        <h1 className={styles.title}>This page URL looks like a blog URL!</h1>
         <ul>
           <li>
             <Link href="/">Home</Link>

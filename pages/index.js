@@ -16,22 +16,24 @@ export default function Home() {
         <h1 className={styles.title}>Running NextJS Application!</h1>
         <ul>
           <li>
-            <Link href="/productportfolio">Product Portfolio</Link>
+            <Link href="/productlist">Static Route and Nested Static Routes</Link>
           </li>
           <li>
-            <Link href="/productlist">Product List</Link>
+            <Link href="/productportfolio">Dynamic Route</Link>
           </li>
           <li>
-            <Link href="/blog/2021/my-only-blog">My only blog</Link>
+            <Link href="/blog/2021/my-only-blog">Multiple Dynamic Routes</Link>
           </li>
           <li>
-            <Link href="/some-random-text-for-404">404 Error (Also provides inbuilt 404 error page)</Link>
+            <Link href="/some-random-text-for-404">
+              404 Error (Also provides inbuilt 404 error page)
+            </Link>
           </li>
           <li>
-            <Link href="/currency">API fetch and Data Showcase</Link>
+            <Link href="/currency">Static Generation - Pre Rendering (API fetch - Currency List)</Link>
           </li>
           <li>
-            <Link href="/spacex">SpaceX Space Shuttles (SSR)</Link>
+            <Link href="/spacex">Server Side Rendering (API fetch - SpaceX Shuttles)</Link>
           </li>
         </ul>
       </main>

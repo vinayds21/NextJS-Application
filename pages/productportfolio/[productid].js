@@ -9,7 +9,7 @@ const ProductDetails = () => {
   return (
     <div className={styles.container4}>
       <main className={styles.main}>
-        <h1 className={styles.title}>You are in product details page!</h1>
+        <h1 className={styles.title}>Page with Dynmaic Route</h1>
         <ul>
           <li>
             <Link href="/productportfolio">Back to product portfolio</Link>

@@ -6,11 +6,11 @@ const ProductList = () => {
     <div className={styles.container1}>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome To Product Listing Page!
+          Level-1 - Static Route
         </h1>
         <ul>
           <li>
-            <Link href="/productlist/category">Product list of some category</Link>
+            <Link href="/productlist/category">Nested Static Route</Link>
           </li>
           <li>
             <Link href="/">Home</Link>

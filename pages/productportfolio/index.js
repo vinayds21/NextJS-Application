@@ -6,7 +6,7 @@ const ProductPortfolio = () => {
     <div className={styles.container2}>
       <main className={styles.main}>
         <h1 className={styles.title}>
-            This is product portfolio page!
+            Static Route which takes you to a Dynamic Route
         </h1>
         <ul>
           <li>
